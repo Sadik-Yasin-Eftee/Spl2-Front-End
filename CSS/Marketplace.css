@@ -148,13 +148,23 @@ ul li {
     border-radius: 50%;
     border: 2px solid rgba(0, 0, 0, 0);
     transition: 0.3s all ease;
-  }
+}
   
+.grey {
+    content: "";
+    width: 13px;
+    height: 13px;
+    background-color: gray;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0);
+    transition: 0.3s all ease;
+}
 
 .white:hover,
 .black:hover,
 .blue:hover,
-.yellow:hover {
+.yellow:hover,
+.grey:hover {
   border: 2px solid #f76b39;
   width: 13px;
   height: 13px;
